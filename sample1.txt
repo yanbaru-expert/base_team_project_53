@@ -1,0 +1,14 @@
+Script started on Sun Feb 14 19:19:21 2021
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[Jmihooo24@mihonoAir base_team_project_53 % [K[?2004hrrails routes | grep posts[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[Jmihooo24@mihonoAir base_team_project_53 % [K[?2004hrails routes | grep posts     usr esr  rs[?2004l
+                                users GET    /users(.:format)                                                                         users#index
+                                      POST   /users(.:format)                                                                         users#create
+                             new_user GET    /users/new(.:format)                                                                     users#new
+                            edit_user GET    /users/:id/edit(.:format)                                                                users#edit
+                                 user GET    /users/:id(.:format)                                                                     users#show
+                                      PATCH  /users/:id(.:format)                                                                     users#update
+                                      PUT    /users/:id(.:format)                                                                     users#update
+                                      DELETE /users/:id(.:format)                                                                     users#destroy
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[Jmihooo24@mihonoAir base_team_project_53 % [K[?2004heexit[?2004l
+
+Script done on Sun Feb 14 19:19:52 2021
