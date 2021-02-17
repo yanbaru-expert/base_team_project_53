@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :messages, :users
+  resources :messages, :users, :tasks
 end
