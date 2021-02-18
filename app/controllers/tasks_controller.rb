@@ -15,6 +15,20 @@ class TasksController < ApplicationController
     @show = Task.find(params[:id])
   end
 
+  def edit 
+    @edit = Task.find(params[:id])
+  end
+
+  def update
+    task = Task.find(params[:id])
+    task.update(task_params)
+  end
+
+  def destroy 
+    task = Task.find(params[:id])
+    task.destroy
+  end
+
   private 
   def task_params 
     params.require(:task).permit(:title, :content)
